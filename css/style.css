@@ -1,0 +1,301 @@
+body {
+    background-image: linear-gradient(to bottom right in oklab, #fff7ed 0%, oklch(98.7% .022 95.277) 50%, oklch(98.7% .026 102.212) 100%);
+
+
+}
+
+
+/* * Start Navbar Section */
+
+.navbar {
+    box-shadow: 0 1px 3px 0px #0000001a, 0 1px 2px -1px #0000001a;
+    border-bottom: 1px solid oklch(95.4% .038 75.164);
+    /* padding-block: 16px; */
+    /* padding-inline: 24px; */
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+nav .container {
+    margin-inline: auto;
+    max-width: 1260px;
+}
+
+nav .container .nav-logo {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3.40282e38px;
+    margin-inline-end: 12px;
+    background-image: linear-gradient(to bottom right in oklab, oklch(70.5% .213 47.604), oklch(63.7% .237 25.331));
+    box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
+}
+
+
+.navbar .navbar-toggler {
+    border: none;
+    box-shadow: none;
+    color: #364153;
+    transition: color 0.3s;
+}
+
+.navbar .navbar-toggler:hover {
+
+    color: #F54900;
+}
+
+nav .container .nav-logo i {
+    color: #fff;
+    font-size: 18px;
+}
+
+.navbar .navbar-brand h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: oklch(21% .034 264.665);
+    margin-bottom: 0px;
+    margin-top: 6px;
+}
+
+
+.navbar .navbar-brand p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    color: oklch(55.1% .027 264.364);
+    margin-bottom: 0px;
+}
+
+
+
+.navbar .navbar-nav .btn-1 {
+    color: oklch(44.6% .03 256.802);
+    background-color: transparent;
+    border: none;
+    margin-inline-end: 10px;
+    transition: color 0.3s;
+    margin-top: 4px;
+}
+
+.navbar .navbar-nav .btn-2 {
+    color: oklch(44.6% .03 256.802);
+    background-color: transparent;
+    border: none;
+    margin-inline-end: 10px;
+    transition: color 0.3s;
+    margin-top: 4px;
+}
+
+.navbar .navbar-nav .btn-3 {
+    color: oklch(44.6% .03 256.802);
+    background-color: transparent;
+    border: none;
+    margin-inline-end: 15px;
+    transition: color 0.3s;
+    margin-top: 4px;
+}
+
+
+
+.navbar .navbar-nav button:hover {
+    color: #F54900;
+}
+
+.navbar .navbar-nav button i {
+    font-size: 20px;
+}
+
+
+.navbar .navbar-nav img {
+    width: 40px;
+    height: 40px;
+    border-radius: 3.40282e38px;
+    border: 2px solid oklch(83.7% .128 66.29);
+
+    cursor: pointer;
+}
+
+
+
+@media (min-width:576px) {
+
+    .navbar .navbar-nav .picture span {
+        transition: color 0.3s;
+        cursor: pointer;
+        color: oklch(44.6% .03 256.802);
+    }
+
+    .navbar .navbar-nav .picture span:hover {
+
+        color: #F54900;
+    }
+
+
+}
+
+
+@media (min-width:992px) {
+
+    .navbar .navbar-nav li span {
+        display: none;
+    }
+
+    .navbar .nav-bar-inner {
+        display: flex;
+        align-items: center;
+    }
+}
+
+/* * End Navbar Section */
+
+
+
+/* ! Start Main  */
+main {
+    padding-block: 32px;
+    padding-inline: 24px;
+    max-width: 1280px;
+    margin-inline: auto;
+}
+
+/* * Start  Section */
+
+section {
+    background-color: #fff;
+    box-shadow: 0 20px 25px -5px #0000001a, 0 8px 10px -6px #0000001a;
+    margin-bottom: 32px;
+    border: 1 solid oklch(95.4% .038 75.164);
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+section .grid-grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    height: 750px;
+    gap: 0px;
+
+}
+
+section .grid-grid .img-holder {
+    height: 100%;
+    grid-column: span 2 / span 2;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section .grid-grid .content-holder {
+    padding: 40px;
+    grid-column: span 3 / span 3;
+    overflow-y: auto;
+    height: 100%;
+    scrollbar-width: thin;
+    scrollbar-color: #fe886a4d;
+
+}
+
+
+
+section .grid-grid .content-holder .Test {
+    background-image: linear-gradient(to bottom right in oklab, oklch(70.5% .213 47.604), oklch(63.7% .237 25.331));
+    color: #fff;
+    padding-block: 12px;
+    padding-inline: 24px;
+    border: none;
+    border-radius: 12px;
+    transition: all 0.3s;
+    box-shadow: 0 20px 25px -5px #0000001a, 0 8px 10px -6px #0000001a;
+    font-size: 16px;
+    font-weight: 600;
+    bottom: 40px;
+    left: 40px;
+}
+
+
+section .grid-grid .content-holder .Test:hover {
+    transform: scale(1.05);
+}
+
+section .grid-grid .content-holder h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: oklch(21% .034 264.665);
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+section .grid-grid .content-holder .text-p{
+    font-size: 18px;
+    font-weight: 400;
+    color:oklch(0.446 0.03 256.802)
+;
+}
+
+
+
+
+
+/* * End  Section */
+
+
+
+/* ! End Main  */
